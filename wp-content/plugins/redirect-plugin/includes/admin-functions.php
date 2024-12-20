@@ -17,6 +17,8 @@ function render_redirect_manager_page() {
         wp_die(__('Nu ai permisiunea de a accesa această pagină.'));
     }
 
+    echo '<h1>Funcția este apelată corect!</h1>'; // Linie de test
+
     global $wpdb;
     $table_name = $wpdb->prefix . 'redirects';
 
