@@ -47,5 +47,6 @@ function render_redirect_manager_page() {
         echo '<div class="updated"><p>Redirecția a fost ștearsă.</p></div>';
     }
 
-    include plugin_dir_path(__FILE__) . '..views/admin-page.php';
+    echo plugin_dir_path(__FILE__) . '../views/admin-page.php';
+    include plugin_dir_path(__FILE__) . '../views/admin-page.php';
 }

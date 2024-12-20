@@ -1,3 +1,7 @@
+<?php
+echo '<h2>Fișierul admin-page.php este inclus corect!</h2>';
+?>
+
 <div class="wrap">
     <h1>Redirect Manager</h1>
     <form method="post" action="">
